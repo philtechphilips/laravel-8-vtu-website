@@ -1,0 +1,567 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Jost' !important;
+}
+.navbar-brand {
+    color: #f72036 !important;
+    font-weight: 800;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 30px;
+    font-family: 'Jost';
+}
+
+.navbar-nav {
+    display: inline-flex;
+    align-items: center;
+}
+main {
+    padding: 50px 80px 70px !important;
+    box-sizing: border-box;
+}
+
+nav button {
+    font-family: "Muli", sans-serif;
+    font-size: 16px !important;
+    font-weight: bold !important;
+    padding: 8px 20px !important;
+}
+
+
+.navbar-2 {
+    margin: 5px 15px 30px !important;
+    padding: 12px 0;
+    border-bottom: 1px solid #e0e0e0;
+    font-weight: bold;
+}
+
+.navbar-brand {
+    color: #f72036 !important;
+    font-weight: 800;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.navbar-nav {
+    display: inline-flex;
+    align-items: center;
+}
+
+.breadcrumb,
+.year {
+    padding: 15px 40px;
+  
+}
+
+
+.breadcrumb {
+    background-color: #ffffff;
+}
+
+.desc-head,
+.header-1,
+.header-2 {
+    font-family: "Bebas Neue", cursive;
+    text-transform: uppercase;
+    line-height: 36px;
+    font-size: 18px;
+}
+
+.header-1 {
+    font-size: 24px;
+}
+
+.header-2 {
+    font-size: 36px;
+    margin-top: -20px;
+}
+.header{
+    background: url('../../images/bg.jpg'), rgba(0,0,0,0.5);;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.search{
+    margin-right: -10px;
+    padding-top: 4px;
+}
+.brand{
+    margin-right: -15px;
+    
+}
+.brand-select{
+    width: 150px;
+}
+.year-div{
+    margin-right: -20px;
+}
+.search-btn{
+    padding: 12px 40px;
+}
+.search-input{
+    padding: 10px 40px;
+}
+.navbar-toggler{
+    border: none;
+}
+.navbar-collapse{
+    border: none;
+}
+.cartyp{
+    margin-right: -50px;
+}
+.car-type{
+    max-width: 220px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.c-type{
+    text-align: center !important;
+    align-items: center !important;
+}
+.car-type:hover{
+    border: solid 1px #f72036;
+    background-color: #e0e0e0;
+}
+.band{
+    color: rgba(0,0,0,0.5);
+    background-color: #e0e0e0;
+    padding: 8px 20px 8px 20px;
+    /* margin-bottom: 80px; */
+    font-size: 12px;
+}
+a{
+    color: rgba(0,0,0,0.8);
+}
+a:hover{
+    color: #f72036;
+}
+.r-cars{
+    border-radius: 8px;
+    width: 260px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding-top: 20px;
+}
+.r-cars:hover{
+    border: solid 1px #f72036;
+    background-color: #e0e0e0;
+}
+.r-cars img{
+    max-width: 230px;
+}
+.brand-img{
+    background-color: #e0e0e0;
+    margin: 0px 10px 0px 0px;
+    max-width: 130px;
+}
+.details{
+    padding: 20px 200px 20px 200px;
+}
+.blog-desc{
+    text-align: left;
+}
+.blog-desc img{
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+.blog-desc h3{
+    margin-bottom: 20px;
+}
+.blog-desc p{
+    margin-bottom: 20px;
+}
+.blog-desc a{
+    border-radius: 0px;
+    padding: 10px 20px 10px 20px;
+    font-family: 'Jost' !important;
+}
+.blog-heading{
+    text-align: left;
+    padding: 40px 40px 40px 40px !important;
+    border-radius: 8px;
+}
+.blog-button{
+    width: 350px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+footer{
+    background-color: bisque;
+}
+.footer {
+    padding: 1px 80px;
+    display: flex;
+    flex-direction: column;
+    color: #000;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+footer .subscribe {
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 70px;
+    font-size: 16px;
+}
+
+footer hr {
+    border: 1px solid #181818;
+}
+
+.footer-links a {
+    display: block;
+    color: #131313;
+    line-height: 24px;
+}
+
+.footer-links h4 {
+    margin-top: 20px;
+}
+
+.footer-links a:hover {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+/* Brand Page Styling */
+.brand-row{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    padding-top: 30px;
+}
+.brand-item{
+    text-align: center;
+    /* background-color: #f7f7f7; */
+    border: solid 1px #f7f7f7;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 8px;
+}
+.brand-item:hover{
+    background-color: #e0e0e0;
+    border: solid 1px #f72036;
+}
+/* Brand Page Styling Ends Here */
+
+
+/* Shop Styling Starts Here */
+.cartype{
+    border-radius: 0px;
+}
+.shop-brand{
+    max-width: 150px;
+    margin-left: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+/* Shop Styling Ends Here */
+.gallery-img:hover{
+    border: solid 1px #f72036;
+    background-color: #f7f7f7;
+}
+/* nav{
+    position: sticky;
+} */
+
+@media only screen and (max-width: 480px) {
+.search-nav{
+    max-width: 300px;
+}
+.header{
+    /* padding: 20px 10px 20px 10px; */
+    padding: 50px 10px 10px 10px !important;
+}
+.header-content{
+    padding: 0 !important;
+}
+.search{
+    margin-right: 0px !important ;
+    padding-top: 0 !important;
+    padding-right: 0px !important;
+    padding-left: 0 !important;
+    width: 30000px !important;
+    
+}
+
+.brand{
+    margin-right: 0px!important;
+    margin-top: 0px !important;
+    /* margin-left: -10px; */
+}
+/* .brand-select{
+    width: 210px;
+} */
+.year-div{
+    margin-right: 0px !important;
+    margin-top: -5px !important;
+}
+select{
+    /* width: 220px; */
+    /* margin-left: -10px; */
+}
+.search-btn{
+    padding: 12px 40px;
+    margin-top: -13px !important;
+}
+.search-input{
+    padding: 10px 40px;
+}
+.car-type{
+    max-width: 280px;
+    margin-right: 0px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+.c-type{
+    text-align: center !important;
+    align-items: center !important;
+    align-content: center;
+}
+
+.carte{
+    margin-left: -20px;
+    margin-right: 0px;
+}
+.r-cars{
+    border-radius: 8px;
+    width: 280px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+.details{
+    padding: 20px 10px 10px 20px;
+}
+.blog-desc img{
+    border-radius: 8px;
+    margin-bottom: 20px;
+    max-width: 300px;
+    margin-top: 20px;
+}
+
+.blog-button{
+    width: 320px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footer-email{
+    max-width: 200px;
+    text-align: center;
+    align-self: center;
+}
+.footer{
+    max-width: 92vw;
+    padding: 0 !important;
+}
+
+.shop-brand{
+    max-width: 150px;
+    margin-left: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.see-all{
+    margin-left: 30px !important;
+}
+.single-img{
+    width: 300px;
+}
+.gallery-img{
+    max-width: 300px;
+    margin-left: 30px;
+}
+.car-info{
+    display: grid !important;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+.blog-card{
+    max-width: 300px !important;
+    margin-left: 30px !important;
+}
+.blog-card img{
+    max-width: 300px !important;
+}
+.about{
+    margin: 0px !important;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+.about p{
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    margin: 0px !important;
+    padding-bottom: 30px !important;
+}
+.about-card{
+    margin-left: 50px !important;
+}
+.blog-single img{
+    max-width: 300px !important;
+}
+.blog-search{
+    padding: 20px 0px 30px 30px !important;
+    max-width: 280px;
+    
+}
+.blog-search input{
+    max-width: 200px;
+}
+}
+
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+    .search-nav{
+        max-width: 300px;
+    }
+    .header{
+        /* padding: 20px 10px 20px 10px; */
+        padding: 50px 10px 10px 10px !important;
+    }
+    .header-content{
+        padding: 0 !important;
+    }
+    .search{
+        margin-right: 0px !important ;
+        padding-top: 0 !important;
+        padding-right: 0px !important;
+        padding-left: 0 !important;
+        width: 600px !important;
+        text-align: center !important;
+        
+    }
+    
+    .brand{
+        margin-right: 60px !important;
+        margin-top: 3px !important;
+        margin-left: -10px;
+        width: 180px !important;
+    }
+    /* .brand-select{
+        width: 210px;
+    } */
+    .year-div{
+        margin-right: 60px !important;
+        margin-top: 3px !important;
+        width: 150px !important;
+    }
+    select{
+        /* width: 220px; */
+        /* margin-left: -10px; */
+    }
+    .search-btn{
+        padding: 12px 40px;
+        margin-top: 0px !important;
+    }
+    .search-input{
+        padding: 10px 40px;
+    }
+    .car-type{
+        max-width: 280px;
+        margin-right: 0px;
+        margin-left: 50px;
+        margin-bottom: 20px;
+    }
+    
+    .c-type{
+        text-align: center !important;
+        align-items: center !important;
+        align-content: center;
+    }
+    
+    .carte{
+        margin-left: -20px;
+        margin-right: 0px;
+    }
+    .r-cars{
+        border-radius: 8px;
+        width: 280px;
+        margin-left: 40px;
+        margin-bottom: 10px;
+    }
+    .details{
+        padding: 20px 10px 10px 20px;
+    }
+    .blog-desc img{
+        border-radius: 8px;
+        margin-bottom: 20px;
+        max-width: 300px;
+        margin-top: 20px;
+    }
+    
+    .blog-button{
+        width: 200px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    .footer-email{
+        max-width: 200px;
+        text-align: center;
+        align-self: center;
+    }
+    .footer{
+        max-width: 92vw;
+        padding: 0 !important;
+    }
+    
+    .shop-brand{
+        max-width: 150px;
+        margin-left: 20px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .see-all{
+        margin-left: 30px !important;
+    }
+    .single-img{
+        width: 300px;
+    }
+    .gallery-img{
+        max-width: 300px;
+        margin-left: 30px;
+    }
+    .car-info{
+        display: grid !important;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+    .blog-card{
+        max-width: 300px !important;
+        margin-left: 30px !important;
+    }
+    .blog-card img{
+        max-width: 300px !important;
+    }
+    .about{
+        margin: 0px !important;
+        padding-right: 0px !important;
+        padding-left: 0px !important;
+    }
+    .about p{
+        padding-right: 0px !important;
+        padding-left: 0px !important;
+        margin: 0px !important;
+        padding-bottom: 30px !important;
+    }
+    .about-card{
+        margin-left: 50px !important;
+    }
+    .blog-single img{
+        max-width: 700px !important;
+    }
+    .blog-search{
+        padding: 20px 0px 30px 30px !important;
+        width: 600px !important;
+        
+    }
+    .blog-search input{
+        max-width: 300px;
+    }
+}
